@@ -9,6 +9,7 @@ class TasksScreen extends StatelessWidget {
         backgroundColor: Colors.redAccent,
         child: Icon(
           Icons.add,
+          color: Colors.black,
         ),
       ),
       backgroundColor: Colors.redAccent,
