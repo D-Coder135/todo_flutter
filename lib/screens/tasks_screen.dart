@@ -43,6 +43,17 @@ class TasksScreen extends StatelessWidget {
               ],
             ),
           ),
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.black87,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20.0),
+                  topRight: Radius.circular(20.0),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
