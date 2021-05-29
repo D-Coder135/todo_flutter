@@ -10,6 +10,7 @@ class TasksScreen extends StatelessWidget {
           Icon(
             Icons.list,
           ),
+          Text('Todoer'),
         ],
       ),
     );
