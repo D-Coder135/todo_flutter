@@ -5,7 +5,9 @@ class TasksScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlueAccent,
-      body: Column(),
+      body: Column(
+        children: <Widget>[],
+      ),
     );
   }
 }
