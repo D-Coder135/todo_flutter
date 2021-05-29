@@ -38,7 +38,9 @@ class TasksScreen extends StatelessWidget {
                 fontSize: 18.0,
               ),
             ),
-            Container()
+            Container(
+              decoration: BoxDecoration(),
+            ),
           ],
         ),
       ),
