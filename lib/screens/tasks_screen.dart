@@ -4,6 +4,9 @@ class TasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: null,
+      ),
       backgroundColor: Colors.redAccent,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
