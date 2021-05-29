@@ -16,6 +16,7 @@ class TasksScreen extends StatelessWidget {
               child: Icon(
                 Icons.list,
                 size: 30.0,
+                color: Colors.redAccent,
               ),
             ),
             Text(
