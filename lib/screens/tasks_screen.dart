@@ -6,6 +6,7 @@ class TasksScreen extends StatelessWidget {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: null,
+        backgroundColor: Colors.redAccent,
       ),
       backgroundColor: Colors.redAccent,
       body: Column(
