@@ -12,6 +12,7 @@ class TasksScreen extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               backgroundColor: Colors.black,
+              radius: 30.0,
               child: Icon(
                 Icons.list,
               ),
