@@ -31,6 +31,7 @@ class TasksScreen extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
+            Text('12 Tasks'),
           ],
         ),
       ),
