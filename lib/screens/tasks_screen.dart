@@ -27,6 +27,7 @@ class TasksScreen extends StatelessWidget {
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 50.0,
+                fontWeight: FontWeight.w700,
               ),
             ),
           ],
