@@ -39,7 +39,9 @@ class TasksScreen extends StatelessWidget {
               ),
             ),
             Container(
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                color: Colors.black,
+              ),
             ),
           ],
         ),
