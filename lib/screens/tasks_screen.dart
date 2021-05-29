@@ -35,6 +35,7 @@ class TasksScreen extends StatelessWidget {
               '12 Tasks',
               style: TextStyle(
                 color: Colors.black,
+                fontSize: 18.0,
               ),
             ),
           ],
