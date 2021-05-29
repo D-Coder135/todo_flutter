@@ -6,6 +6,7 @@ class TasksScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.redAccent,
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Container(
             padding: EdgeInsets.only(
