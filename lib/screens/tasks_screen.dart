@@ -19,7 +19,9 @@ class TasksScreen extends StatelessWidget {
                 color: Colors.redAccent,
               ),
             ),
-            SizedBox(),
+            SizedBox(
+              height: 10.0,
+            ),
             Text(
               'Todoer',
             ),
