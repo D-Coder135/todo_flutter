@@ -7,6 +7,9 @@ class TasksScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: null,
         backgroundColor: Colors.redAccent,
+        child: Icon(
+          Icons.add,
+        ),
       ),
       backgroundColor: Colors.redAccent,
       body: Column(
