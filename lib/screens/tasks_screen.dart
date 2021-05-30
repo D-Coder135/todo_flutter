@@ -66,7 +66,9 @@ class TasksScreen extends StatelessWidget {
                   ListTile(
                     title: Text(
                       'This is a task.',
-                      style: TextStyle(),
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
                     ),
                     trailing: Checkbox(
                       value: false,
