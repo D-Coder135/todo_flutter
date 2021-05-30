@@ -62,7 +62,9 @@ class TasksScreen extends StatelessWidget {
                 ),
               ),
               child: ListView(
-                children: <Widget>[],
+                children: <Widget>[
+                  ListTile(),
+                ],
               ),
             ),
           ),
