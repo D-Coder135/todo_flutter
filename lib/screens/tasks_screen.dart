@@ -62,38 +62,49 @@ class TasksScreen extends StatelessWidget {
                   topRight: Radius.circular(20.0),
                 ),
               ),
-              child: ListView(
-                children: <Widget>[
-                  ListTile(
-                    title: Text(
-                      'This is a task.',
-                      style: TextStyle(
-                          // color: Colors.white,
-                          ),
-                    ),
-                    trailing: Checkbox(
-                      value: false,
-                      onChanged: null,
-                    ),
-                  ),
-                  ListTile(
-                    title: Text(
-                      'This is a task.',
-                      style: TextStyle(
-                          // color: Colors.white,
-                          ),
-                    ),
-                    trailing: Checkbox(
-                      value: false,
-                      onChanged: null,
-                    ),
-                  ),
-                ],
-              ),
+              child: TasksList(),
             ),
           ),
         ],
       ),
+    );
+  }
+}
+
+class TasksList extends StatelessWidget {
+  const TasksList({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+        ListTile(
+          title: Text(
+            'This is a task.',
+            style: TextStyle(
+                // color: Colors.white,
+                ),
+          ),
+          trailing: Checkbox(
+            value: false,
+            onChanged: null,
+          ),
+        ),
+        ListTile(
+          title: Text(
+            'This is a task.',
+            style: TextStyle(
+                // color: Colors.white,
+                ),
+          ),
+          trailing: Checkbox(
+            value: false,
+            onChanged: null,
+          ),
+        ),
+      ],
     );
   }
 }
