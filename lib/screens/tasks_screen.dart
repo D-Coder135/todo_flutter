@@ -77,18 +77,6 @@ class TasksList extends StatelessWidget {
     return ListView(
       children: <Widget>[
         TaskTile(),
-        ListTile(
-          title: Text(
-            'This is a task.',
-            style: TextStyle(
-                // color: Colors.white,
-                ),
-          ),
-          trailing: Checkbox(
-            value: false,
-            onChanged: null,
-          ),
-        ),
       ],
     );
   }
