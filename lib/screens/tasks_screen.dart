@@ -63,7 +63,9 @@ class TasksScreen extends StatelessWidget {
               ),
               child: ListView(
                 children: <Widget>[
-                  ListTile(),
+                  ListTile(
+                    title: Text('This is a task.'),
+                  ),
                 ],
               ),
             ),
