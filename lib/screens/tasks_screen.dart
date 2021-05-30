@@ -64,7 +64,10 @@ class TasksScreen extends StatelessWidget {
               child: ListView(
                 children: <Widget>[
                   ListTile(
-                    title: Text('This is a task.'),
+                    title: Text(
+                      'This is a task.',
+                      style: TextStyle(),
+                    ),
                     trailing: Checkbox(
                       value: false,
                       onChanged: null,
