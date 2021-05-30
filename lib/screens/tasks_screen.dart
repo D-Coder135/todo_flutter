@@ -65,6 +65,10 @@ class TasksScreen extends StatelessWidget {
                 children: <Widget>[
                   ListTile(
                     title: Text('This is a task.'),
+                    trailing: Checkbox(
+                      value: false,
+                      onChanged: null,
+                    ),
                   ),
                 ],
               ),
