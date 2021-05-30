@@ -68,8 +68,8 @@ class TasksScreen extends StatelessWidget {
                     title: Text(
                       'This is a task.',
                       style: TextStyle(
-                        color: Colors.white,
-                      ),
+                          // color: Colors.white,
+                          ),
                     ),
                     trailing: Checkbox(
                       value: false,
@@ -80,8 +80,8 @@ class TasksScreen extends StatelessWidget {
                     title: Text(
                       'This is a task.',
                       style: TextStyle(
-                        color: Colors.white,
-                      ),
+                          // color: Colors.white,
+                          ),
                     ),
                     trailing: Checkbox(
                       value: false,
