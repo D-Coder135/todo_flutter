@@ -80,18 +80,7 @@ class TasksList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-        ListTile(
-          title: Text(
-            'This is a task.',
-            style: TextStyle(
-                // color: Colors.white,
-                ),
-          ),
-          trailing: Checkbox(
-            value: false,
-            onChanged: null,
-          ),
-        ),
+        TaskTile(),
         ListTile(
           title: Text(
             'This is a task.',
@@ -105,6 +94,28 @@ class TasksList extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class TaskTile extends StatelessWidget {
+  const TaskTile({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      title: Text(
+        'This is a task.',
+        style: TextStyle(
+            // color: Colors.white,
+            ),
+      ),
+      trailing: Checkbox(
+        value: false,
+        onChanged: null,
+      ),
     );
   }
 }
