@@ -20,6 +20,7 @@ class AddTasksScreen extends StatelessWidget {
               style: TextStyle(
                 color: Colors.redAccent,
                 fontSize: 30.0,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ],
