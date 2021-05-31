@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:todo_flutter/widgets/tasks_list.dart';
 
 class TasksScreen extends StatelessWidget {
-  Widget getBottomSheetWidget(BuildContext context) {}
+  Widget getBottomSheetWidget(BuildContext context) {
+    return Container();
+  }
 
   @override
   Widget build(BuildContext context) {
