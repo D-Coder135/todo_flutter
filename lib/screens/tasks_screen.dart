@@ -11,7 +11,9 @@ class TasksScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          showModalBottomSheet(context: context, builder: getBottomSheetWidget);
+        },
         backgroundColor: Colors.redAccent,
         child: Icon(
           Icons.add,
