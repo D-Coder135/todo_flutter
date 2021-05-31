@@ -17,6 +17,7 @@ class AddTasksScreen extends StatelessWidget {
           children: <Widget>[
             Text(
               'Add Task',
+              style: TextStyle(),
             ),
           ],
         ),
