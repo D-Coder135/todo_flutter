@@ -14,7 +14,11 @@ class AddTasksScreen extends StatelessWidget {
           ),
         ),
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            Text(
+              'Add Task',
+            ),
+          ],
         ),
       ),
     );
