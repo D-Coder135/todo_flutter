@@ -3,7 +3,7 @@ import 'package:todo_flutter/widgets/tasks_list.dart';
 
 class TasksScreen extends StatelessWidget {
   // This method will return a widget which will be show inside the ModelBottomSheet() widget.
-  Widget getBottomSheetWidget(BuildContext context) {
+  Widget buildBottomSheet(BuildContext context) {
     return Container();
   }
 
@@ -12,7 +12,7 @@ class TasksScreen extends StatelessWidget {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          showModalBottomSheet(context: context, builder: getBottomSheetWidget);
+          showModalBottomSheet(context: context, builder: buildBottomSheet);
         },
         backgroundColor: Colors.redAccent,
         child: Icon(
