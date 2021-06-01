@@ -33,7 +33,8 @@ class _TaskTileState extends State<TaskTile> {
 
 class TaskCheckbox extends StatelessWidget {
   final bool checkboxState;
-  final void Function(bool?) toggleCheckboxState;
+  final void Function(bool?)
+      toggleCheckboxState; // Updated as per the latest version. Instead of initializing it as final Function, initialized it as void Function(bool?). Because the onChanged property of the Checkbox() widget accepts 'void Function(bool?)' type function.
 
   TaskCheckbox(this.checkboxState, this.toggleCheckboxState);
 
