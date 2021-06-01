@@ -25,7 +25,7 @@ class _TaskCheckboxState extends State<TaskCheckbox> {
   Widget build(BuildContext context) {
     return Checkbox(
       value: false,
-      onChanged: null,
+      onChanged: (newValue) {},
     );
   }
 }
