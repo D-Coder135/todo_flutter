@@ -27,6 +27,7 @@ class AddTasksScreen extends StatelessWidget {
               autofocus: true,
               textAlign: TextAlign.center,
             ),
+            TextButton(),
           ],
         ),
       ),
