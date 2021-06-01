@@ -23,7 +23,12 @@ class _TasksListState extends State<TasksList> {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemBuilder: (context, index) {
-        return TaskTile(tasks[index].isDone, tasks[index].name);
+        return TaskTile(tasks[index].isDone, tasks[index].name,
+            (bool? checkboxState) {
+          setState(() {
+            isChecked = checkboxState!;
+          });
+        });
       },
       itemCount: tasks.length,
     );
