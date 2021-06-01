@@ -28,7 +28,9 @@ class _TaskCheckboxState extends State<TaskCheckbox> {
     return Checkbox(
       value: isChecked,
       onChanged: (newValue) {
-        setState(() {});
+        setState(() {
+          isChecked = newValue;
+        });
       },
     );
   }
