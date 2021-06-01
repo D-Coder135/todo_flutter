@@ -8,9 +8,9 @@ class TaskTile extends StatefulWidget {
 class _TaskTileState extends State<TaskTile> {
   bool isChecked = false;
 
-  void checkboxCallback(bool checkboxState) {
+  void checkboxCallback(bool? checkboxState) {
     setState(() {
-      isChecked = checkboxState;
+      isChecked = checkboxState!;
     });
   }
 
