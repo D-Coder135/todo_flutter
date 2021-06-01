@@ -26,10 +26,11 @@ class _TaskCheckboxState extends State<TaskCheckbox> {
   @override
   Widget build(BuildContext context) {
     return Checkbox(
+      activeColor: Colors.redAccent,
       value: isChecked,
       onChanged: (newValue) {
         setState(() {
-          isChecked = newValue;
+          isChecked = newValue!;
         });
       },
     );
