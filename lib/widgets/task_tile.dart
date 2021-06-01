@@ -33,9 +33,9 @@ class TaskCheckbox extends StatelessWidget {
       activeColor: Colors.redAccent,
       value: checkboxState,
       onChanged: (newValue) {
-        setState(() {
-          isChecked = newValue!;
-        });
+        // setState(() {
+        //   isChecked = newValue!;
+        // });
       },
     );
   }
