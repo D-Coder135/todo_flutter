@@ -5,7 +5,7 @@ class TaskTile extends StatelessWidget {
   final String taskTitle;
   final void Function(bool?) toggleCheckboxState;
 
-  TaskTile(this.isChecked, this.taskTitle);
+  TaskTile(this.isChecked, this.taskTitle, this.toggleCheckboxState);
 
   @override
   Widget build(BuildContext context) {
