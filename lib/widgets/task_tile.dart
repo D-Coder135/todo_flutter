@@ -17,7 +17,7 @@ class _TaskTileState extends State<TaskTile> {
             // color: Colors.white,
             ),
       ),
-      trailing: TaskCheckbox(),
+      trailing: TaskCheckbox(isChecked),
     );
   }
 }
