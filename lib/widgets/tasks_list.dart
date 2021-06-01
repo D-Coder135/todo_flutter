@@ -15,8 +15,11 @@ class _TasksListState extends State<TasksList> {
   ];
 
   Widget build(BuildContext context) {
-    return ListView.builder(itemBuilder: (context, index) {
-      return TaskTile(tasks[index].isDone, tasks[index].name);
-    });
+    return ListView.builder(
+      itemBuilder: (context, index) {
+        return TaskTile(tasks[index].isDone, tasks[index].name);
+      },
+      itemCount: tasks.length,
+    );
   }
 }
