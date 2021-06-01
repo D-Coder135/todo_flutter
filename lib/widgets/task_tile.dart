@@ -31,7 +31,7 @@ class TaskCheckbox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Checkbox(
       activeColor: Colors.redAccent,
-      value: isChecked,
+      value: checkboxState,
       onChanged: (newValue) {
         setState(() {
           isChecked = newValue!;
