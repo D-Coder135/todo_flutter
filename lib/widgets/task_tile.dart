@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TaskTile extends StatelessWidget {
-  bool isChecked = false;
+  final bool isChecked;
 
   // void checkboxCallback(bool? checkboxState) {
   //   setState(() {
