@@ -8,7 +8,11 @@ class TaskTile extends StatefulWidget {
 class _TaskTileState extends State<TaskTile> {
   bool isChecked = false;
 
-  void checkboxCallback() {}
+  void checkboxCallback() {
+    // setState(() {
+    //   isChecked = newValue!;
+    // });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -34,11 +38,7 @@ class TaskCheckbox extends StatelessWidget {
     return Checkbox(
       activeColor: Colors.redAccent,
       value: checkboxState,
-      onChanged: (newValue) {
-        // setState(() {
-        //   isChecked = newValue!;
-        // });
-      },
+      onChanged: (newValue) {},
     );
   }
 }
