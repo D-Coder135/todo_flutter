@@ -14,6 +14,12 @@ class _TasksListState extends State<TasksList> {
     Task(name: 'Buy Bread'),
   ];
 
+  // void checkboxCallback(bool? checkboxState) {
+  //   setState(() {
+  //     isChecked = checkboxState!;
+  //   });
+  // }
+
   Widget build(BuildContext context) {
     return ListView.builder(
       itemBuilder: (context, index) {
