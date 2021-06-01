@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class TaskTile extends StatelessWidget {
   final bool isChecked;
   final String taskTitle;
+  final void Function(bool?) toggleCheckboxState;
 
   TaskTile(this.isChecked, this.taskTitle);
 
