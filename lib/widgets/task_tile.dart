@@ -16,10 +16,6 @@ class TaskTile extends StatelessWidget {
 }
 
 class TaskCheckbox extends StatefulWidget {
-  const TaskCheckbox({
-    Key? key,
-  }) : super(key: key);
-
   @override
   _TaskCheckboxState createState() => _TaskCheckboxState();
 }
