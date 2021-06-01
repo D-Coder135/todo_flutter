@@ -23,6 +23,8 @@ class _TaskTileState extends State<TaskTile> {
 }
 
 class TaskCheckbox extends StatelessWidget {
+  final bool checkboxState;
+
   @override
   Widget build(BuildContext context) {
     return Checkbox(
