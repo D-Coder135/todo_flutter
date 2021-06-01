@@ -34,6 +34,9 @@ class AddTasksScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(Colors.redAccent),
+              ),
             ),
           ],
         ),
