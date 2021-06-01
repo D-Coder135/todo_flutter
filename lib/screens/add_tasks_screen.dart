@@ -32,6 +32,7 @@ class AddTasksScreen extends StatelessWidget {
             TextField(
               autofocus: true,
               textAlign: TextAlign.center,
+              cursorColor: Colors.redAccent,
             ),
             TextButton(
               child: Text(
