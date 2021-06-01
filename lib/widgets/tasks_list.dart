@@ -15,12 +15,6 @@ class _TasksListState extends State<TasksList> {
   ];
 
   Widget build(BuildContext context) {
-    return ListView(
-      children: <Widget>[
-        TaskTile(),
-        TaskTile(),
-        TaskTile(),
-      ],
-    );
+    return ListView();
   }
 }
