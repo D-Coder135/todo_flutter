@@ -10,7 +10,7 @@ class _TaskTileState extends State<TaskTile> {
 
   void checkboxCallback(bool checkboxState) {
     setState(() {
-      isChecked = newValue!;
+      isChecked = checkboxState;
     });
   }
 
