@@ -10,10 +10,21 @@ class TaskTile extends StatelessWidget {
             // color: Colors.white,
             ),
       ),
-      trailing: Checkbox(
-        value: false,
-        onChanged: null,
-      ),
+      trailing: TaskCheckbox(),
+    );
+  }
+}
+
+class TaskCheckbox extends StatelessWidget {
+  const TaskCheckbox({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Checkbox(
+      value: false,
+      onChanged: null,
     );
   }
 }
