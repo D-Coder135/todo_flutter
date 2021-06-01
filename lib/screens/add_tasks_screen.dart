@@ -18,6 +18,7 @@ class AddTasksScreen extends StatelessWidget {
           children: <Widget>[
             Text(
               'Add Task',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.redAccent,
                 fontSize: 30.0,
