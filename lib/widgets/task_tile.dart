@@ -6,6 +6,8 @@ class TaskTile extends StatefulWidget {
 }
 
 class _TaskTileState extends State<TaskTile> {
+  bool isChecked = false;
+
   @override
   Widget build(BuildContext context) {
     return ListTile(
@@ -26,8 +28,6 @@ class TaskCheckbox extends StatefulWidget {
 }
 
 class _TaskCheckboxState extends State<TaskCheckbox> {
-  bool isChecked = false;
-
   @override
   Widget build(BuildContext context) {
     return Checkbox(
