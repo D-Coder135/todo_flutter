@@ -6,12 +6,6 @@ class TaskTile extends StatelessWidget {
 
   TaskTile(this.isChecked, this.taskTitle);
 
-  // void checkboxCallback(bool? checkboxState) {
-  //   setState(() {
-  //     isChecked = checkboxState!;
-  //   });
-  // }
-
   @override
   Widget build(BuildContext context) {
     return ListTile(
