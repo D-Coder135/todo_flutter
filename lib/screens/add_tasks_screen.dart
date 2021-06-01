@@ -23,7 +23,9 @@ class AddTasksScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            TextField(),
+            TextField(
+              autofocus: true,
+            ),
           ],
         ),
       ),
