@@ -26,7 +26,7 @@ class _TaskCheckboxState extends State<TaskCheckbox> {
   @override
   Widget build(BuildContext context) {
     return Checkbox(
-      value: false,
+      value: isChecked,
       onChanged: (newValue) {},
     );
   }
