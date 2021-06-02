@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class AddTasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    String newTaskTitle;
+
     return Container(
       color: Color(0xff757575),
       child: Container(
