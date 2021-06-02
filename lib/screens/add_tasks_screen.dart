@@ -55,7 +55,9 @@ class AddTasksScreen extends StatelessWidget {
                   Colors.redAccent,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                addTaskCallback(newTaskTitle);
+              },
             ),
           ],
         ),
