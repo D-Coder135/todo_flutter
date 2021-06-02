@@ -8,18 +8,6 @@ class TasksList extends StatefulWidget {
 }
 
 class _TasksListState extends State<TasksList> {
-  List<Task> tasks = [
-    Task(name: 'Buy Milk'),
-    Task(name: 'Buy Eggs'),
-    Task(name: 'Buy Bread'),
-  ];
-
-  // void checkboxCallback(bool? checkboxState) {
-  //   setState(() {
-  //     isChecked = checkboxState!;
-  //   });
-  // }
-
   Widget build(BuildContext context) {
     return ListView.builder(
       itemBuilder: (context, index) {
