@@ -35,8 +35,8 @@ class AddTasksScreen extends StatelessWidget {
               autofocus: true,
               textAlign: TextAlign.center,
               cursorColor: Colors.redAccent,
-              onChanged: (newText) {
-                newTaskTitle = newText;
+              onChanged: (newTask) {
+                newTaskTitle = newTask;
               },
             ),
             TextButton(
