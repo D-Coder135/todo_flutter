@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AddTasksScreen extends StatelessWidget {
+  final Function addTaskCallback;
+
   @override
   Widget build(BuildContext context) {
     String newTaskTitle = "";
@@ -47,7 +49,9 @@ class AddTasksScreen extends StatelessWidget {
                 ),
               ),
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.redAccent),
+                backgroundColor: MaterialStateProperty.all(
+                  Colors.redAccent,
+                ),
               ),
               onPressed: () {},
             ),
