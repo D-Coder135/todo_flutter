@@ -15,7 +15,9 @@ class _TasksScreenState extends State<TasksScreen> {
   ];
 
   Widget buildBottomSheet(BuildContext context) {
-    return AddTasksScreen();
+    return AddTasksScreen((newTaskTitle) {
+      print(newTaskTitle);
+    });
   }
 
   @override
