@@ -3,10 +3,6 @@ import 'task_tile.dart';
 import 'package:todo_flutter/models/task.dart';
 
 class TasksList extends StatefulWidget {
-  final List<Task> tasks;
-
-  TasksList(this.tasks);
-
   @override
   _TasksListState createState() => _TasksListState();
 }
