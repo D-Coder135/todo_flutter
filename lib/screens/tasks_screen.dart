@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:todo_flutter/widgets/tasks_list.dart';
 
-class TasksScreen extends StatefulWidget {
+class TasksScreen extends StatelessWidget {
   // This method will return a widget which will be show inside the ModelBottomSheet() widget.
-  @override
-  _TasksScreenState createState() => _TasksScreenState();
-}
 
-class _TasksScreenState extends State<TasksScreen> {
   Widget buildBottomSheet(BuildContext context) {
     return AddTasksScreen((newTaskTitle) {
       // setState(() {
