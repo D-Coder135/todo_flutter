@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:todo_flutter/models/task_data.dart';
 import 'task_tile.dart';
 
 class TasksList extends StatefulWidget {
@@ -10,14 +12,15 @@ class _TasksListState extends State<TasksList> {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemBuilder: (context, index) {
-        return TaskTile(widget.tasks[index].isDone, widget.tasks[index].name,
+        return TaskTile(Provider.of<TaskData>(context).tasks[index].isDone,
+            Provider.of<TaskData>(context).tasks[index].name,
             (bool? checkboxState) {
-          setState(() {
-            widget.tasks[index].toggleDone();
-          });
+          // setState(() {
+          //   widget.tasks[index].toggleDone();
+          // });
         });
       },
-      itemCount: widget.tasks.length,
+      itemCount: Provider.of<TaskData>(context).tasks.length,
     );
   }
 }
