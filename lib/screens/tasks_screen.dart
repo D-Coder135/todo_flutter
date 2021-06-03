@@ -16,9 +16,9 @@ class _TasksScreenState extends State<TasksScreen> {
 
   Widget buildBottomSheet(BuildContext context) {
     return AddTasksScreen((newTaskTitle) {
-      setState(() {
-        tasks.add(Task(name: newTaskTitle));
-      });
+      // setState(() {
+      //   tasks.add(Task(name: newTaskTitle));
+      // });
       Navigator.pop(context);
     });
   }
