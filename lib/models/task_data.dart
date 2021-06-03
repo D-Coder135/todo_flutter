@@ -1,4 +1,6 @@
-class TaskData {}
+import 'package:flutter/cupertino.dart';
+
+class TaskData extends ChangeNotifier {}
 
 // List<Task> tasks = [
 //   Task(name: 'Buy Milk'),
