@@ -14,5 +14,6 @@ class TaskData extends ChangeNotifier {
 
   void addTask(String newTaskTitle) {
     final task = Task(name: newTaskTitle);
+    _tasks.add(task);
   }
 }
