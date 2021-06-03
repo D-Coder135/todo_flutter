@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'task_tile.dart';
-import 'package:todo_flutter/models/task.dart';
 
 class TasksList extends StatefulWidget {
   @override
