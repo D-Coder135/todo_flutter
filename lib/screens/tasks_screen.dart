@@ -8,12 +8,6 @@ class TasksScreen extends StatefulWidget {
 }
 
 class _TasksScreenState extends State<TasksScreen> {
-  List<Task> tasks = [
-    Task(name: 'Buy Milk'),
-    Task(name: 'Buy Eggs'),
-    Task(name: 'Buy Bread'),
-  ];
-
   Widget buildBottomSheet(BuildContext context) {
     return AddTasksScreen((newTaskTitle) {
       // setState(() {
