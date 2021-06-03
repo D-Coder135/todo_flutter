@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:todo_flutter/models/task_data.dart';
 
 class AddTasksScreen extends StatelessWidget {
   @override
@@ -52,7 +53,9 @@ class AddTasksScreen extends StatelessWidget {
                   Colors.redAccent,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Provider.of<TaskData>(context).addTask(newTaskTitle);
+              },
             ),
           ],
         ),
