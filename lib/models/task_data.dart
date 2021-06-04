@@ -2,19 +2,19 @@ import 'package:flutter/cupertino.dart';
 import 'package:todo_flutter/models/task.dart';
 
 class TaskData extends ChangeNotifier {
-  List<Task> tasks = [
+  List<Task> _tasks = [
     Task(name: 'Buy Milk'),
     Task(name: 'Buy Eggs'),
     Task(name: 'Buy Bread'),
   ];
 
   int get taskCount {
-    return tasks.length;
+    return _tasks.length;
   }
 
   void addTask(String newTaskTitle) {
     final task = Task(name: newTaskTitle);
-    tasks.add(task);
+    _tasks.add(task);
     notifyListeners();
   }
 }
