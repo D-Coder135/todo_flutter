@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/cupertino.dart';
 import 'package:todo_flutter/models/task.dart';
 
@@ -8,7 +10,7 @@ class TaskData extends ChangeNotifier {
     Task(name: 'Buy Bread'),
   ];
 
-  List<Task> get task {
+  UnmodifiableListView<Task> get task {
     return _tasks;
   }
 
