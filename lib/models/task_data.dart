@@ -10,7 +10,7 @@ class TaskData extends ChangeNotifier {
     Task(name: 'Buy Bread'),
   ];
 
-  UnmodifiableListView<Task> get task {
+  UnmodifiableListView<Task> get tasks {
     return UnmodifiableListView(_tasks);
   }
 
